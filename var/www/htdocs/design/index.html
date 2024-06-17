@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+
+<title>EXOR &sol; Design</title>
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<meta name="robots" content="nofollow">
+<meta content="josegpt" name="author">
+<meta content="EXOR &sol; Design" name="description">
+<meta content="C, HTML, CSS" name="keywords">
+<meta content="#0a0a0a" name="theme-color">
+<meta content="website" property="og:type">
+<meta content="EXOR &sol; Design" property="og:title">
+<meta content="https://design.redhex.dev" property="og:url">
+<meta content="EXOR &sol; Design" property="og:description">
+<meta content="/static/img/banner.png" property="og:image">
+<link rel="icon" href="/static/img/logo.svg">
+<link rel="mask-icon" href="/static/img/logo.svg" color="#0a0a0a">
+<link rel="preload stylesheet" type="text/css" as="style" href="/static/css/style.css">
+
+<body class="cover">
+<header data-align="center" data-justify="space-between" class="cluster">
+<nav data-align="center" class="cluster">
+<a href="/" class="cluster">
+<svg width="24" height="24" viewBox="0 0 48.5 61.5">
+<use href="/static/img/logo.svg#logo" xlink:href="/static/img/logo.svg#logo">
+</svg>
+</a>
+<div>
+<span>Design</span>
+</div>
+</nav>
+
+<nav class="cluster">
+<a href="/">Subpage</a>
+<a href="/">Subpage</a>
+</nav>
+</header>
+
+<search>
+<form class="with-sidebar">
+<input type="search" placeholder="Search...">
+<input type="submit" value="Search">
+</form>
+</search>
+
+<main class="stack">
+<section>
+<h1>Heading</h1>
+<h2>Heading</h2>
+<h3>Heading</h3>
+<h4>Heading</h4>
+<h5>Heading</h5>
+<h6>Heading</h6>
+</section>
+
+<p>The base font is 16px over 1.5 line height (24px)
+
+<section>
+<strong>Bolded</strong>
+<em>Italicized</em>
+<u>Underline</u>
+<code>Inline Code</code>
+<a href="#">Anchor</a>
+</section>
+
+<section class="cluster">
+<button>Button element</button>
+<input type="submit" value="Submit input">
+<input type="button" value="Button input">
+<a data-type="button" href="#">Anchor button</a>
+</section>
+
+<section>
+<h1>Title</h1>
+<p>
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum
+accusamus accusantium <a href="#">sit unde</a> assumenda soluta <code>voluptatum voluptatibus</code>
+aliquid tempore quae, ducimus officia magnam, alias qui voluptas
+consequatur laborum rerum earum.
+</section>
+
+<form class="stack">
+<section class="grid">
+<label>
+<p>First Name</p>
+<input type="text" placeholder="John">
+</label>
+<label>
+<p>Last Name</p>
+<input type="text" placeholder="Doe">
+</label>
+<label>
+<p>Password</p>
+<input type="password" placeholder="Password">
+</label>
+<label>
+<p>Cellphone</p>
+<input type="tel" placeholder="Cellphone">
+</label>
+<label>
+<p>Age</p>
+<input type="number" placeholder="Age">
+</label>
+<label>
+<p>Date</p>
+<input type="date" placeholder="date">
+</label>
+</section>
+<fieldset class="grid">
+<legend>Information</legend>
+<label>
+<p>Email</p>
+<input type="email" placeholder="test@redhex.org">
+</label>
+<label>
+<p>Password <b>Required</b></p>
+<input type="password" placeholder="p@ssw0rd" required>
+</label>
+<label>
+<p>Email <em>Disabled</em></p>
+<input type="email" placeholder="test@redhex.org" disabled>
+</label>
+<label>
+<p>Reason for contacting</p>
+<select>
+<option>Questions
+</select>
+</label>
+</fieldset>
+<label>
+<p>Message</p>
+<textarea placeholder="Hey Exor!"></textarea>
+</label>
+<footer data-justify="space-between" data-align="center" class="cluster">
+<section>
+<input type="submit">
+<input data-style="secondary" type="reset">
+</section>
+<section class="cluster">
+<label data-align="center" class="cluster">
+<input name="radio" type="radio">
+<span>Radio</span>
+</label>
+<label data-align="center" class="cluster">
+<input name="radio" type="radio">
+<span>Radio</span>
+</label>
+</section>
+<label data-align="center" class="cluster">
+<input type="checkbox">
+<span>Send a copy to yourself</span>
+</label>
+</footer>
+</form>
+
+<section class="cluster">
+<ul>
+<li>Item 1
+<li>Item 2
+ <ul>
+ <li>Item 2.1
+ <li>Item 2.2
+ </ul>
+<li>Item 3
+</ul>
+<ol>
+<li>Item 1
+<li>Item 2
+ <ul>
+ <li>Item 2.1
+ <li>Item 2.2
+ </ul>
+<li>Item 3
+</ol>
+</section>
+
+<pre><code>.some-class {
+	background-color: red;
+}</code></pre>
+
+<details class="stack">
+<summary>Details</summary>
+<p>Description
+ <details class="stack">
+ <summary>Details</summary>
+ <p>Description
+ </details>
+ <details class="stack">
+ <summary>Details</summary>
+ <p>Description
+ </details>
+</details>
+
+<table>
+<thead>
+<tr>
+<th>Name
+<th>Age
+<th>Sex
+<th>Location
+<tbody>
+<tr>
+<td data-label="Name">John Doe
+<td data-label="Age">26
+<td data-label="Sex">Male
+<td data-label="Location">San Francisco
+<tr>
+<td data-label="Name">Jane Doe
+<td data-label="Age">22
+<td data-label="Sex">Female
+<td data-label="Location">Florida
+</tbody>
+</table>
+</main>
