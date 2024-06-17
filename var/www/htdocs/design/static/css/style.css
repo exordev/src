@@ -45,6 +45,7 @@ html {
 body {
 	font-family: sans-serif;
 	-webkit-font-smoothing: antialiased;
+	line-height: 1.6;
 	margin-inline: auto;
 	max-width: 80ch;
 }
